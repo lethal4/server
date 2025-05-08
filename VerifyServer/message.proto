@@ -1,0 +1,22 @@
+syntax = "proto3";
+//使用的proto版本
+package message;
+//调包
+service VarifyService {
+//grpc客户端发送给grpc服务端请求，grpc服务端回应
+  rpc GetVarifyCode (GetVarifyReq) returns (GetVarifyRsp)
+//接口名字        
+ {}
+}
+
+message GetVarifyReq {
+  string email = 1;
+}
+
+message GetVarifyRsp {
+  int32 error = 1;
+//错误码
+  string email = 2;
+  string code = 3;
+//code回复用来做调试
+}

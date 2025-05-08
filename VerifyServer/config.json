@@ -1,0 +1,17 @@
+{
+    "email": {
+      "user": "w2105424884@vip.qq.com",
+      "pass": "talxjawrjusedade"
+    },
+    "mysql":{
+        "host": "47.120.20.25",
+        "port": 3306,
+        "passwd":"Gdm3YapHz5ATA3PE"
+    },
+    "redis":{
+        "host": "47.120.20.25",
+        "port": 6380,
+        "passwd": "123456"
+    }
+}
+
